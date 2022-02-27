@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.lifs.portofolioapp.uifragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/androidFragment"
+        android:name="com.lifs.portofolioapp.uifragment.AndroidFragment"
+        android:label="Android"
+        tools:layout="@layout/fragment_android" />
+    <fragment
+        android:id="@+id/experienceFragment"
+        android:name="com.lifs.portofolioapp.uifragment.ExperienceFragment"
+        android:label="Experience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/uiuxFragment"
+        android:name="com.lifs.portofolioapp.uifragment.UiuxFragment"
+        android:label="UI/UX"
+        tools:layout="@layout/fragment_uiux" />
+    <fragment
+        android:id="@+id/flutterFragment"
+        android:name="com.lifs.portofolioapp.uifragment.FlutterFragment"
+        android:label="Flutter"
+        tools:layout="@layout/fragment_flutter" />
+
+</navigation>
